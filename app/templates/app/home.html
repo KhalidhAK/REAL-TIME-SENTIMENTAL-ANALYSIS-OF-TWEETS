@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Input</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    
+      <h4 style="text-align:center;margin:100px 0 0 0"><strong>REAL TIME TWEET ANALYSIS</strong></h4>
+      <div class="well" style="margin:50px 440px">
+      <form method="post" action="">
+        {%csrf_token%}
+     <div class="form-group">
+        <label for="name">Enter the text to search:</label>
+        <input type="text" class="form-control" id="name" name="search">
+      </div><br>
+  <button class="btn btn-primary btn-block" type="submit">Search</button>
+    </form>
+   </div>
+</body>
+</html>

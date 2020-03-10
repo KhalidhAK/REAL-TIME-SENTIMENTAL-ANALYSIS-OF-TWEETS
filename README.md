@@ -1,3 +1,7 @@
+REAL TIME SENTIMENTAL ANALYSIS OF TWEETS
+
+-----------------------------------------------
+
 Install the required packages using pip install
 
 1. Django
